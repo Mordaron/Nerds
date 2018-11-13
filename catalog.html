@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nerds</title>
+</head>
+<body>
+	<header class="main-header">
+		<a class="main-header-logo">
+			<img src="http://placehold.it/150x100" class="logo-header" alt="Логотип Нёрдз" width="160" height="65">
+		</a>
+		<nav class="main-navigation">
+			<ul class="site-navigation">
+				<li><a href="info.html">Студия</a></li>
+				<li><a href="clients.html">Клиенты</a></li>
+				<li><a href="shop.html">Магазин</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>				
+		</nav>
+			<ul class="user-navigation">
+				<li class="login-link">Корзинка</li>
+			</ul>
+		<h1 class="title-header">Магазин готовых шаблонов</h1>
+	</header>
+
+	<main class="container">
+		<section class="section-form">
+			<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+				<fieldset>
+					<legend>Стоимость:</legend>
+				</fieldset>
+
+				<fieldset>
+					<legend>Сетка:</legend>
+					<ul>
+						<li>
+							<input type="radio" name="form-filter" id="filet-adapt" checked>
+							<label for="filet-adapt">Адаптивная</label>
+						</li>
+						<li>
+							<input type="radio" name="form-filter" id="filter-fix">
+							<label for="filter-fix">Фиксированная</label>
+						</li>
+						<li>
+							<input type="radio" name="form-filter" id="filter-rezin">
+							<label for="filter-rezin">Резиновая</label>
+						</li>
+					</ul>
+				</fieldset>
+
+				<fieldset>
+					<legend>Особенности:</legend>
+					<ul>
+						<li>
+							<input type="checkbox" name="slider" id="filer-slider"  checked>
+							<label for="filter-slider">Слайдер</label>
+						</li>
+						<li>
+							<input type="checkbox" name="block-promery" id="filer-block-promery">
+							<label for="filer-block-promery">Блок преимуществ</label>
+						</li>
+						<li>
+							<input type="checkbox" name="new" id="filer-new"  checked>
+							<label for="filer-new">Новости</label>
+						</li>
+						<li>
+							<input type="checkbox" name="galery" id="filer-galery">
+							<label for="filer-galery">Галерея</label>
+						</li>
+						<li>
+							<input type="checkbox" name="search" id="filer-search">
+							<label for="filer-search">Корзина</label>
+						</li>
+					</ul>
+				</fieldset>
+
+				<button type="submit">Показать</button>
+			</form>
+		</section>
+
+		<section class="section-sort">
+			<div class="sort">
+				<form>
+					<fieldset class="catalog" method="get" action="https://echo.htmlacademy.ru">
+							<legend>Сортировать:</legend>
+								<ul>
+									<li><a href="#">По цене</a></li>
+									<li><a href="#">По типу</a></li>
+									<li><a href="#">По названию</a></li>
+									<li><a href="#"><span>Вверх</span></a></li>
+									<li><a href="#"><span>Вниз</span></a></li>
+								</ul>
+					</fieldset>
+				</form>
+			</div>
+			<div class="catalog-img">
+				<ul>
+					<li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+				</ul>
+			</div>
+			<div class="switch">
+				<ul>
+					<li><a href="#"><button>1</button></a></li>
+					<li><a href="#"><button>2</button></a></li>
+					<li><a href="#"><button>3</button></a></li>
+					<li><a href="#"><button>Следующая</button></a></li>
+				</ul>
+			</div>
+		</section>
+	</main>
+
+	<footer class="main-footer">
+		<!--Карта-->
+
+		<div class="social">
+			<p><a href="#">ВКонтакте</a></p>
+			<p><a href="#">Facebook</a></p>
+			<p><a href="#">Instagram</a></p>
+		</div>
+
+		<div class="slogan">
+			<h3 class="slogan-title">Давайте дружить, это выгодно!</h3>
+			<p class="slogan-par">Скидка 10% для друзей из социальных сетей</p>
+		</div>
+	</footer>
+</body>
+</html>
