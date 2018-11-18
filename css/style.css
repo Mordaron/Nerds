@@ -1,0 +1,199 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+  	color: #000;
+	text-transform: uppercase;
+}
+
+.visual-hidden {
+	display: none;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.logo-nav {
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
+
+	background-color: #eeeeee;
+}
+
+.site-navigation,
+.user-navigation {
+	list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+	color: #000;
+}
+
+.site-navigation a:hover,
+.user-navigation a:hover {
+	color: #fb565a;
+}
+
+.site-navigation a:focus,
+.user-navigation a:focus {
+	opacity: 0.3;
+	color: #000;
+}
+
+.title-about h2 {
+	font-size: 55px;
+	line-height: 55px;
+}
+
+.title-about p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #283136;
+	line-height: 24px;
+}
+
+.title-about a  {
+	color: white;
+	padding: 15px;
+	background-color: #fb565a;
+}
+
+.services-items h3{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.services-items p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.services-link-one { 
+	color: white;
+	padding: 15px;
+	background-color: #fb565a;
+}
+.services-link-two { 
+	color: white;
+	padding: 15px;
+	background-color: #00ca74;
+}
+.services-link-three { 
+	color: white;
+	padding: 15px;
+	background-color: #efc84a;
+}
+
+hr {
+	height: 2px;
+}
+
+p>b {
+	font-size: 45px;
+	font-weight: 500;
+	line-height: 45px;
+}
+
+.primery p:nth-child(2){
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.primery h3 {
+	font-family: "Roboto - Bold";
+	font-weight: 700;
+}
+
+.order {
+	list-style: none;
+}
+
+.item-order{
+	font-family: "Roboto - Regular";
+	font-weight: 400;
+}
+
+.title-statist{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.value-statist{
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 10.06px;
+}
+
+.value-statist>sup{
+	font-size: 25px;
+}
+
+.statist-about{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.items-logotype {
+	list-style: none;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.maps-form h4{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.maps-form p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #858585;
+}
+
+.maps-form p>a {
+	color: #858585;
+}
+
+.commun {
+	color: white;
+	padding: 15px;
+	background-color: #fb565a;
+}
+
+.list-social-items {
+	list-style: none;
+}
+
+.social-button {
+  width: 79px;
+  height: 79px;
+
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.slogan h3{
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 36px;
+}
+
+.slogan p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+}
